@@ -1,0 +1,2 @@
+//Function will try and  takes two strings and returns the number of characters in them. RegEx test() method executes a search for a match between a regular expression and a specified string. Returns true or false. test() can be used to iterate over multiple matches in a string of text (with capture groups).  
+sameCase = (a,b) => /[a-z]/i.test(a) && /[a-z]/i.test(b) ? Number(/[a-z]/.test(a) == /[a-z]/.test(b)) : -1
